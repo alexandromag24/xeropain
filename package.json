@@ -1,17 +1,17 @@
 {
-  "name": "demo-seo",
+  "name": "xeropain",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node dist/demo-seo/server/main.js",
+    "start": "node dist/xeropain/server/main.js",
     "build": "npm run build:ssr",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "dev:ssr": "ng run demo-seo:serve-ssr",
-    "serve:ssr": "node dist/demo-seo/server/main.js",
-    "build:ssr": "ng build --prod && ng run demo-seo:server:production",
-    "prerender": "ng run demo-seo:prerender"
+    "dev:ssr": "ng run xeropain:serve-ssr",
+    "serve:ssr": "node dist/xeropain/server/main.js",
+    "build:ssr": "ng build --prod && ng run xeropain:server:production",
+    "prerender": "ng run xeropain:prerender"
   },
   "engines": {
     "node": "12.16.1",
